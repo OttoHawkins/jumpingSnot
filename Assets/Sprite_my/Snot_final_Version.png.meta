@@ -1,0 +1,806 @@
+fileFormatVersion: 2
+guid: 7aa1543cc841e14429316481c9aaebed
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3139843907668482505
+    second: Snot_final_Version_0
+  - first:
+      213: 7993425985272047708
+    second: Snot_final_Version_1
+  - first:
+      213: -1413807597797708762
+    second: Snot_final_Version_2
+  - first:
+      213: -848262905298080923
+    second: Snot_final_Version_3
+  - first:
+      213: 4692799874955649281
+    second: Snot_final_Version_4
+  - first:
+      213: 3064392003696067283
+    second: Snot_final_Version_5
+  - first:
+      213: -2983779046787507852
+    second: Snot_final_Version_6
+  - first:
+      213: -6220666570661920038
+    second: Snot_final_Version_7
+  - first:
+      213: 7656622889061773221
+    second: Snot_final_Version_8
+  - first:
+      213: 6752967243752209057
+    second: Snot_final_Version_9
+  - first:
+      213: 909940100151787234
+    second: Snot_final_Version_10
+  - first:
+      213: 2383264355247559608
+    second: Snot_final_Version_11
+  - first:
+      213: 483139924442087857
+    second: Snot_final_Version_12
+  - first:
+      213: 6953031274156991835
+    second: Snot_final_Version_13
+  - first:
+      213: 5745470797397345273
+    second: Snot_final_Version_14
+  - first:
+      213: -6690627300011742666
+    second: Snot_final_Version_15
+  - first:
+      213: -7893159216126001621
+    second: Snot_final_Version_16
+  - first:
+      213: 3789921449083114571
+    second: Snot_final_Version_17
+  - first:
+      213: 5049340744421555601
+    second: Snot_final_Version_18
+  - first:
+      213: -6505005048660310683
+    second: Snot_final_Version_19
+  - first:
+      213: -2999111595891851255
+    second: Snot_final_Version_20
+  - first:
+      213: -6943661535016859063
+    second: Snot_final_Version_21
+  - first:
+      213: -2918971634944874676
+    second: Snot_final_Version_22
+  - first:
+      213: 2114555536051004428
+    second: Snot_final_Version_23
+  - first:
+      213: 7704641983097442471
+    second: Snot_final_Version_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Snot_final_Version_0
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 912
+        width: 75
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c911cef567f29b20800000000000000
+      internalID: 3139843907668482505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snot_final_Version_1
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 785
+        width: 128
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c586486259a5eee60800000000000000
+      internalID: 7993425985272047708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snot_final_Version_2
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 108
+        width: 648
+        height: 769
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62ce4800b75216ce0800000000000000
+      internalID: -1413807597797708762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snot_final_Version_3
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 874
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b2195c16d5a34f0800000000000000
+      internalID: -848262905298080923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snot_final_Version_4
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 863
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101aabc6f9c202140800000000000000
+      internalID: 4692799874955649281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snot_final_Version_5
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 787
+        width: 37
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d20ad0aa48e68a20800000000000000
+      internalID: 3064392003696067283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snot_final_Version_6
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 706
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4791af304cc7796d0800000000000000
+      internalID: -2983779046787507852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snot_final_Version_7
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 688
+        width: 42
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad28c8566b0cba9a0800000000000000
+      internalID: -6220666570661920038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snot_final_Version_8
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 621
+        width: 28
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5afe6a973f9c14a60800000000000000
+      internalID: 7656622889061773221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snot_final_Version_9
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 644
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aaf2bfedeb57bd50800000000000000
+      internalID: 6752967243752209057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snot_final_Version_10
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 575
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ee3e6433b1c0ac00800000000000000
+      internalID: 909940100151787234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snot_final_Version_11
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 597
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b39164dd4e031120800000000000000
+      internalID: 2383264355247559608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snot_final_Version_12
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 590
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b10e25933574b600800000000000000
+      internalID: 483139924442087857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snot_final_Version_13
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 582
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b552f48ea112e7060800000000000000
+      internalID: 6953031274156991835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snot_final_Version_14
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 491
+        width: 34
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f3cf3adf330cbf40800000000000000
+      internalID: 5745470797397345273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snot_final_Version_15
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 543
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ae44a4bed1623a0800000000000000
+      internalID: -6690627300011742666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snot_final_Version_16
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 555
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2e753f338dd57290800000000000000
+      internalID: -7893159216126001621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snot_final_Version_17
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 532
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b449b336a71889430800000000000000
+      internalID: 3789921449083114571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snot_final_Version_18
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 532
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19d372d87acd21640800000000000000
+      internalID: 5049340744421555601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snot_final_Version_19
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 542
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565ca7c8f5499b5a0800000000000000
+      internalID: -6505005048660310683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snot_final_Version_20
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 364
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9008c1db4e30166d0800000000000000
+      internalID: -2999111595891851255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snot_final_Version_21
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 330
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ac6cc7f9823af90800000000000000
+      internalID: -6943661535016859063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snot_final_Version_22
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 272
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c476bad63cabd77d0800000000000000
+      internalID: -2918971634944874676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snot_final_Version_23
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 101
+        width: 45
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c04e7208e09685d10800000000000000
+      internalID: 2114555536051004428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snot_final_Version_24
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 150
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a0951c00136cea60800000000000000
+      internalID: 7704641983097442471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Snot_final_Version_0: 3139843907668482505
+      Snot_final_Version_1: 7993425985272047708
+      Snot_final_Version_10: 909940100151787234
+      Snot_final_Version_11: 2383264355247559608
+      Snot_final_Version_12: 483139924442087857
+      Snot_final_Version_13: 6953031274156991835
+      Snot_final_Version_14: 5745470797397345273
+      Snot_final_Version_15: -6690627300011742666
+      Snot_final_Version_16: -7893159216126001621
+      Snot_final_Version_17: 3789921449083114571
+      Snot_final_Version_18: 5049340744421555601
+      Snot_final_Version_19: -6505005048660310683
+      Snot_final_Version_2: -1413807597797708762
+      Snot_final_Version_20: -2999111595891851255
+      Snot_final_Version_21: -6943661535016859063
+      Snot_final_Version_22: -2918971634944874676
+      Snot_final_Version_23: 2114555536051004428
+      Snot_final_Version_24: 7704641983097442471
+      Snot_final_Version_3: -848262905298080923
+      Snot_final_Version_4: 4692799874955649281
+      Snot_final_Version_5: 3064392003696067283
+      Snot_final_Version_6: -2983779046787507852
+      Snot_final_Version_7: -6220666570661920038
+      Snot_final_Version_8: 7656622889061773221
+      Snot_final_Version_9: 6752967243752209057
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
