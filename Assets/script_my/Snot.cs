@@ -5,25 +5,26 @@ using UnityEngine.UI;
 
 public class Snot : MonoBehaviour
 {
-    public static Snot instance;     
+    public static Snot instance;
 
-    public Rigidbody2D SnotRigid;      
-    public GameObject gameOverPanel;    
-    public Button restartButton;        
-    public Button menuButton;            
-    public Text finalScoreText; 
+    public Rigidbody2D SnotRigid;
+    public GameObject gameOverPanel;
+    public Button restartButton;
+    public Button menuButton;
+    public Text finalScoreText;
 
-    public AudioClip bounceSound;      
-    private AudioSource audioSource;     
+    public AudioClip bounceSound;
+    private AudioSource audioSource;
 
-    private float horizontal;          
-    private bool isGameOver = false;  
+    private float horizontal;
+    private bool isGameOver = false;
 
-    private ScoreManager scoreManager; 
+    private ScoreManager scoreManager;
     public float squashDuration = 0.1f;
     public Vector3 squashScale = new Vector3(1.2f, 0.5f, 1f);
 
     private Vector3 originalScale;
+    private bool shouldPlayBounceSound = false;
 
     void Start()
     {
@@ -55,21 +56,10 @@ public class Snot : MonoBehaviour
     {
         if (isGameOver) return;
 
-         if (Application.platform == RuntimePlatform.Android)
-         {
-             horizontal = Input.acceleration.x; // Управление акселерометром для сборки
-         }
-
-        // Временное управление кнопками для движка
-      //  horizontal = 0f;
-     //   if (Input.GetKey(KeyCode.A))
-     //   {
-     //       horizontal = -1f;
-     //   }
-     //   else if (Input.GetKey(KeyCode.D))
-     //   {
-      //      horizontal = 1f;
-     //   }
+        if (Application.platform == RuntimePlatform.Android)
+        {
+            horizontal = Input.acceleration.x;
+        }
 
         if (horizontal < 0)
         {
@@ -87,14 +77,29 @@ public class Snot : MonoBehaviour
     {
         if (collision.collider.name == "DeadZone" && !isGameOver)
         {
-            GameOver(); 
+            GameOver();
         }
 
-   
         if (collision.collider.CompareTag("Platform"))
         {
-            SquashEffect(); 
-            PlayBounceSound(); 
+            foreach (ContactPoint2D contact in collision.contacts)
+            {
+                if (contact.normal.y > 0.5f) 
+                {
+                    shouldPlayBounceSound = true;
+                    SquashEffect();
+                    break;
+                }
+            }
+        }
+    }
+
+    public void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("Platform") && shouldPlayBounceSound)
+        {
+            PlayBounceSound();
+            shouldPlayBounceSound = false;
         }
     }
 
@@ -135,8 +140,6 @@ public class Snot : MonoBehaviour
 
     void GoToMenu()
     {
-   
-
         Time.timeScale = 1f;
         SceneManager.LoadScene("MainMenu");
     }
